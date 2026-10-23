@@ -18,7 +18,7 @@ claude plugin install --scope user midnight-cast@midnight-expert
 
 ## MCP server
 
-The plugin starts `npx -y midnight-cast@^0.2.0 mcp` (Node.js 20 or later). Every tool
+The plugin starts `npx -y midnight-cast@0.2.0 mcp` (Node.js 20 or later). Every tool
 returns the same JSON envelope (`ok`, `data`, a structured `error`, `warnings`, and
 `next`, the follow-up steps an expert would take), so an agent can follow a diagnosis
 step by step.
